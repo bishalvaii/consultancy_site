@@ -1,0 +1,84 @@
+.page {
+  display: flex;
+  background-color: #f4f5f2;
+}
+
+.imageSection {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  overflow: hidden; /* Ensure the image doesn't overflow */
+}
+
+.image {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Set the width to fill the viewport */
+  height: 100%; /* Set height to 100% */
+  z-index: -1; /* Send the image to the background */
+}
+
+.formSection {
+  flex: 1;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formRow {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.formGroup {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.formLabel {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.formInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: black;
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+.formTitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black;
+}
+.formButton {
+  font-weight: bold;
+  padding: 10px 0; /* Adjusted padding */
+  width: 120px; /* Adjust the width as needed */
+  background-color: #156634; /* Blue button color */
+  color: white; /* White text */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 20px; /* Adjusted font size */
+  margin-top: 10px; /* Added margin at the top to create space from the message field */
+}
+
+.formButton:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

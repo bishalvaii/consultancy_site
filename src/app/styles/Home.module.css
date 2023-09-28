@@ -1,0 +1,115 @@
+.header {
+  padding: 20px;
+  background-color: #eb6439;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+
+}
+
+.contactInfo span {
+  margin-right: 10px; /* Add some spacing between the items */
+}
+.socialIcons {
+  display: flex;
+  align-items: center;
+}
+
+.socialIcons a {
+  margin-left: 10px;
+}
+
+.bottomRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.leftContent {
+  display: flex;
+  align-items: center;
+}
+.rightContent {
+  display: flex;
+  align-items: center;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+ 
+}
+.logo {
+  margin-right: 20px; /* Ensure the logo is displayed inline */
+}
+.menu ul li {
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.menu ul li:last-child {
+  margin-right: 0;
+}
+
+.menu ul li a {
+  text-decoration: none;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  
+}
+
+.searchButton {
+
+  border-radius: 0 5px 5px 0;
+  padding: 5px 10px;
+  cursor: pointer;
+
+}
+
+/* Add your other styles as needed */
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .topRow {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactInfo {
+    margin-right: 0;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .socialIcons {
+    margin-right: 0;
+  }
+
+  .bottomRow {
+    flex-direction: column;
+    align-items: center;
+  }
+}
