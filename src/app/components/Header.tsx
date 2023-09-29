@@ -44,22 +44,51 @@ const Header: React.FC = () => {
         <nav className={styles.menu}>
           <ul>
             <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
               <a href="/about">About Us</a>
             </li>
-            <li>
-              <a href="/study">Study Abroad</a>
+            <li className={styles.dropdown}>
+              <a href="/study">Study Abroad &#9662;</a>
+              <div className={styles.dropdownContent}>
+                <a href="#">Study in Australia</a>
+                <a href="#">Study in Canada</a>
+                <a href="#">Study in USA</a>
+                <a href="#">Study in UK</a>
+                <a href="#">Study in South Korea</a>
+                <a href="#">Study in Europe</a>
+              </div>
             </li>
-            <li>
-              <a href="/services">Student Services</a>
+            <li className={styles.dropdown}>
+              <a href="/services">Student Services &#9662;</a>
+              <div className={styles.dropdownContent}>
+                <a href="#">Visa Application</a>
+                <a href="#">PTE Test preparation</a>
+                <a href="#">IELTS Test preparation</a>
+                <a href="#">Admission Counselling</a>
+                <a href="#">Student Health Insurance</a>
+                <a href="#">Student Accomodation</a>
+              </div>
             </li>
-            <li>
-              <a href="/scholarships">Scholarships</a>
+            <li className={styles.dropdown}>
+              <a href="/study">Scholarships &#9662;</a>
+              <div className={styles.dropdownContent}>
+                <a href="#">Scholarships in Australia</a>
+                <a href="#">Scholarships in Canada</a>
+                <a href="#">Scholarships in USA</a>
+                <a href="#">Scholarships in UK</a>
+                <a href="#">Scholarships in South Korea</a>
+                <a href="#">Scholarships in Europe</a>
+              </div>
             </li>
-            <li>
-              <a href="/test-prep">Test Preparation</a>
+            <li className={styles.dropdown}>
+              <a href="/study">Test preparation &#9662;</a>
+              <div className={styles.dropdownContent}>
+                <a href="#">IELTS test preparation</a>
+                <a href="#">PTE test preparation</a>
+                <a href="#">GRE test preparation</a>
+                <a href="#">GMAT test preparation</a>
+                <a href="#">TOEFL test preparation</a>
+                <a href="#">SAT test preparation</a>
+              </div>
             </li>
             <li>
               <a href="/contact">Contact Us</a>

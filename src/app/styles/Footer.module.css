@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .footer {
+    width: 30%;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-bottom: 10px;
+  }
+  
+  .consultancyInfo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .socialMediaIcons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socialMediaIcons a {
+    margin: 0 5px;
+  }
+  
+  .columnTitles {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .column {
+    width: 23%;
+    background-color: #e0e0e0;
+    padding: 10px;
+  }
+  
+  .header {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .columnText ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .columnText ul li {
+    margin-bottom: 5px;
+  }
+  
+  .columnText ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .columnText ul li a:hover {
+    color: #007BFF;
+  }
+  

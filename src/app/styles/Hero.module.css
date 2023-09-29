@@ -22,7 +22,7 @@
   .content {
     position: absolute;
     top: 20%;
-    left: 5%; /* Adjust as needed */
+    left: 3%; /* Adjust as needed */
     transform: translateY(-50%);
     color: #fff;
   }
